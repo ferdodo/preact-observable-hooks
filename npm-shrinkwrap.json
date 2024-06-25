@@ -1,9 +1,13 @@
 {
-	"name": "new-project",
+	"name": "preact-observable-hooks",
+	"version": "0.0.1",
 	"lockfileVersion": 3,
 	"requires": true,
 	"packages": {
 		"": {
+			"name": "preact-observable-hooks",
+			"version": "0.0.1",
+			"license": "MIT",
 			"devDependencies": {
 				"@biomejs/biome": "^1.8.2",
 				"@stryker-mutator/core": "^8.2.6",
@@ -12,14 +16,14 @@
 				"@types/node": "^20.14.8",
 				"htm": "^3.1.1",
 				"jsdom": "^24.1.0",
+				"rxjs": "^7.8.1",
 				"typedoc": "^0.25.13",
 				"typedoc-plugin-include-example": "^1.2.0",
 				"typescript": "^5.4.5",
 				"vitest": "^1.6.0"
 			},
 			"peerDependencies": {
-				"preact": "^10.22.0",
-				"rxjs": "^7.8.1"
+				"preact": "^10.22.0"
 			}
 		},
 		"node_modules/@ampproject/remapping": {
@@ -4412,6 +4416,7 @@
 			"version": "7.8.1",
 			"resolved": "https://registry.npmjs.org/rxjs/-/rxjs-7.8.1.tgz",
 			"integrity": "sha512-AA3TVj+0A2iuIoQkWEK/tqFjBq2j+6PO6Y0zJcvzLAFhEFIO3HL0vls9hWLncZbAAbK0mar7oZ4V079I/qPMxg==",
+			"dev": true,
 			"dependencies": {
 				"tslib": "^2.1.0"
 			}
@@ -4839,7 +4844,8 @@
 		"node_modules/tslib": {
 			"version": "2.6.3",
 			"resolved": "https://registry.npmjs.org/tslib/-/tslib-2.6.3.tgz",
-			"integrity": "sha512-xNvxJEOUiWPGhUuUdQgAJPKOOJfGnIyKySOc09XkKsgdUV/3E2zvwZYdejjmRgPCgcym1juLH3226yA7sEFJKQ=="
+			"integrity": "sha512-xNvxJEOUiWPGhUuUdQgAJPKOOJfGnIyKySOc09XkKsgdUV/3E2zvwZYdejjmRgPCgcym1juLH3226yA7sEFJKQ==",
+			"dev": true
 		},
 		"node_modules/tunnel": {
 			"version": "0.0.6",
