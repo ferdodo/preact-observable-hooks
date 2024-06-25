@@ -1,0 +1,10 @@
+{
+	"compilerOptions": {
+		"lib": ["ESNext"],
+		"moduleResolution": "Bundler",
+		"module": "ESNext",
+		"outDir": "dist",
+		"rootDir": "src"
+	},
+	"exclude": ["vitest.config.ts", "src/**/*.test.ts"]
+}

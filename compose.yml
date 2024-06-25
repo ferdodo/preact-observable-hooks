@@ -1,0 +1,5 @@
+services:
+  preact-observable-hooks:
+    build: .
+    ports:
+      - 4444:80

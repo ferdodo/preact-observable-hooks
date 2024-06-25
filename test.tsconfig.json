@@ -1,0 +1,9 @@
+{
+	"compilerOptions": {
+		"lib": ["ESNext"],
+		"moduleResolution": "Bundler",
+		"module": "ESNext",
+		"noEmit": true
+	},
+	"include": ["src/**/*.test.ts"]
+}
